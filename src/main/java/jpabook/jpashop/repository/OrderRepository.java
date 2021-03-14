@@ -19,6 +19,4 @@ public class OrderRepository {
     public Order findOne(Long orderId) {
         return em.find(Order.class, orderId);
     }
-
-
 }

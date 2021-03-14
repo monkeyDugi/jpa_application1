@@ -20,6 +20,7 @@ public abstract class Item {
     private Long id;
     private String name;
     private int stockQuantity;
+    private int price;
 
     @ManyToMany(mappedBy = "items")
     private List<Category> categories = new ArrayList<>();
